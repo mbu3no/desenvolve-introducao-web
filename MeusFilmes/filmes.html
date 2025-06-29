@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Galeria de Filmes Favoritos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .galeria a img {
+      width: 200px;
+      height: 300px;
+      object-fit: cover;
+      border: 2px solid #444;
+      transition: transform 0.3s;
+    }
+    .galeria a img:hover {
+      transform: scale(1.05);
+      border-color: #007BFF;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Meus Filmes Favoritos</h1>
+
+  <div class="galeria">
+    <a href="https://pt.wikipedia.org/wiki/Interestelar_(filme)" target="_blank">
+      <img src="imagens/interestelar.jpg" alt="Interestelar">
+    </a>
+    <a href="https://pt.wikipedia.org/wiki/A_Origem" target="_blank">
+      <img src="imagens/a-origem.jpg" alt="A Origem">
+    </a>
+    <a href="https://pt.wikipedia.org/wiki/O_Senhor_dos_An%C3%A9is:_A_Sociedade_do_Anel" target="_blank">
+      <img src="imagens/senhor-dos-aneis.jpg" alt="O Senhor dos Anéis">
+    </a>
+    <a href="https://pt.wikipedia.org/wiki/Vingadores:_Ultimato" target="_blank">
+      <img src="imagens/vingadores.jpg" alt="Vingadores: Ultimato">
+    </a>
+    <a href="https://pt.wikipedia.org/wiki/Homem-Aranha:_Sem_Volta_para_Casa" target="_blank">
+      <img src="imagens/homem-aranha.jpg" alt="Homem-Aranha">
+    </a>
+    <a href="https://pt.wikipedia.org/wiki/Matrix" target="_blank">
+      <img src="imagens/matrix.jpg" alt="Matrix">
+    </a>
+  </div>
+
+</body>
+</html>
